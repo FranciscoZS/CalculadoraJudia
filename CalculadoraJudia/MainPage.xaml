@@ -82,7 +82,7 @@
     </Border>
 
         <Grid Grid.Row="1"
-              RowDefinitions="*,*,*,*,*"
+              RowDefinitions="*,*,*,*,*,*"
               ColumnDefinitions="*,*,*,*"
               >
             <!--
@@ -193,6 +193,27 @@
                     Grid.Column="3"
                     Style="{StaticResource OperatorButtonStyle}"
                     Text="="
+                    />
+            <!-- Row 6 -->
+            <Button Grid.Row="5"
+                    Grid.Column="0"
+                    Style="{StaticResource OperatorButtonStyle}"
+                    Text="1/x"
+                    />
+            <Button Grid.Row="5"
+                    Grid.Column="1"
+                    Style="{StaticResource OperatorButtonStyle}"
+                    Text="x^y"
+                    />
+            <Button Grid.Row="5"
+                    Grid.Column="2"
+                    Style="{StaticResource OperatorButtonStyle}"
+                    Text="√"
+                    />
+            <Button Grid.Row="5"
+                    Grid.Column="3"
+                    Style="{StaticResource OperatorButtonStyle}"
+                    Text="M"
                     />
         </Grid>
         
